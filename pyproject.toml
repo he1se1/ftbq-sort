@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ftbq-sort"
+version = "0.1.0"
+description = "A topological sorter for FTB Quests lang files."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "ftb-snbt-lib"
+]
+
+[project.scripts]
+# CLIで打つコマンド = パッケージ名.ファイル名:呼び出す関数
+ftbq-sort = "ftbq_sort.main:main"
