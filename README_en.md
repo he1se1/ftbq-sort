@@ -19,17 +19,16 @@ JSON keys in lang files often become disorganized and messy during development. 
 
 ## 🚀 Installation
 
-Python 3.8 or higher is required. We recommend using `pipx` to keep your environment clean.
+Python 3.8 or higher is required. We recommend using `uv` or `pipx` to keep your environment clean.
+
+```bash
+uv tool install git+https://github.com/he1se1/ftbq-sort.git
+```
 
 ```bash
 pipx install git+https://github.com/he1se1/ftbq-sort.git
 ```
 
-To update the tool, run the following command:
-
-```bash
-pipx upgrade ftbq-sort
-```
 
 ## 🛠 Usage
 

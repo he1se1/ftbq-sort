@@ -19,16 +19,14 @@ langファイルのJSONキーはバラバラになってしまいがちです。
 
 ## 🚀 インストール (Installation)
 
-Python 3.8以上が必要です。環境を汚さない `pipx` を使用したインストールを推奨します。
+Python 3.8以上が必要です。環境を汚さない `uv` または `pipx` を使用したインストールを推奨します。
+
+```bash
+uv tool install git+https://github.com/he1se1/ftbq-sort.git
+```
 
 ```bash
 pipx install git+https://github.com/he1se1/ftbq-sort.git
-```
-
-アップデートする場合は以下のコマンドを実行します。
-
-```bash
-pipx upgrade ftbq-sort
 ```
 
 ## 🛠 使い方 (Usage)
