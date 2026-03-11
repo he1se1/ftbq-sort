@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 
-日本語 | [English](README_EN.md)
+日本語 | [English](README_en.md)
 
 `ftbq-sort` は、MinecraftのModパック開発などで使用される [FTB Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests) の言語ファイル（`lang/xx_xx.json`）を、クエストの進行順やGUIの配置に合わせて自動的に美しく整列（ソート）するCLIツールです。
 
